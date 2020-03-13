@@ -1,0 +1,649 @@
+[ {
+  "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Canvas",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Project"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#CanvasTag",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Canvas"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Canvas_date_created",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Canvas"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Canvas_date_modified",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Canvas"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Canvas_id",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Canvas"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Canvas_project",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Canvas"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Canvas_tags",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Canvas"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Canvas_title",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Canvas"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Canvas_type",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Canvas"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Idea",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Canvas"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#IdeaComment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Idea"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Project",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Project_admins",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Project"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Project_date_created",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Project"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Project_date_modified",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Project"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Project_id",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Project"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Project_is_public",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Project"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Project_owner",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Project"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Project_title",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Project"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Project_users",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Project"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#belongs_CType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Idea"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#idea_canvas"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_id"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#belongs_to_idea",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#IdeaComment"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#ideaComment_idea"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_Unique"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#contains",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#IdeaComment"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#ideaComment_text"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_Unique"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#created_at",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#IdeaComment"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#ideaComment_timestamp"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_Unique"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#created_on",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Idea"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#idea_date_created"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_id"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#equivalence",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Canvas_tags"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#tag_id"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_tags"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#equivalent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Canvas_project"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Project_id"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_unique"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_CType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Canvas"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Canvas_type"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_unique"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_Id",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#CanvasTag"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#tag_id"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_tags"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_Tags",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Idea"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#idea_tags"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_id"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_UniqueId",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#IdeaComment"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#ideaComment_id"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_Unique"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_been_created",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#CanvasTag"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#tag_date_created"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_tags"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_been_modified",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#CanvasTag"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#tag_date_modified"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_tags"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_category",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Idea"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#idea_category"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_id"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_id",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Canvas"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Canvas_id"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_unique"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_label",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#CanvasTag"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#tag_label"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_tags"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_project",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Canvas"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Canvas_project"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_unique"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_tags",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Canvas"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Canvas_tags"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_unique"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_text",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Idea"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#idea_text"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_id"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_title",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Canvas"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Canvas_title"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_unique"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_unique",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Project"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Project_id"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#ideaComment_id",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#IdeaComment"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#ideaComment_idea",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#IdeaComment"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#ideaComment_resolved",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#IdeaComment"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#ideaComment_text",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#IdeaComment"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#ideaComment_timestamp",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#IdeaComment"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#ideaComment_user",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#IdeaComment"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#idea_canvas",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Idea"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#idea_category",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Idea"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#idea_date_created",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Idea"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#idea_date_modified",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Idea"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#idea_id",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Idea"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#idea_tags",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Idea"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#idea_text",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Idea"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#idea_title",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Idea"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_Titled",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Idea"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#idea_title"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_id"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_Unique",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Idea"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#idea_id"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_id"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_administrated_by",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Project"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Project_admins"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_create",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Canvas"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Canvas_date_created"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_unique"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_created",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Project"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Project_date_created"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_equivalence",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#idea_id"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#ideaComment_idea"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_Unique"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_equivalent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Canvas_id"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#idea_canvas"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_unique"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_modified",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Project"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Project_date_modified"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_modify",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Canvas"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Canvas_date_modified"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_unique"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_owned",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Project"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Project_owner"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_resolvable",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#IdeaComment"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#ideaComment_resolved"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_Unique"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_titled",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Project"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Project_title"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_used",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Project"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Project_users"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_used_by",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#IdeaComment"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#ideaComment_user"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_Unique"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_visible",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Project"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Project_is_public"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#modified_on",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Idea"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#idea_date_modified"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_id"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#tag_date_created",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#CanvasTag"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#tag_date_modified",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#CanvasTag"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#tag_id",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#CanvasTag"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#tag_label",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#CanvasTag"
+  } ]
+} ]

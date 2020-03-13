@@ -1,0 +1,459 @@
+@prefix : <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6> .
+
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#belongs_CType
+:belongs_CType rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf :has_id ;
+               rdfs:domain :Idea ;
+               rdfs:range :idea_canvas .
+
+
+###  http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#belongs_to_idea
+:belongs_to_idea rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf :is_Unique ;
+                 rdfs:domain :IdeaComment ;
+                 rdfs:range :ideaComment_idea .
+
+
+###  http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#contains
+:contains rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf :is_Unique ;
+          rdfs:domain :IdeaComment ;
+          rdfs:range :ideaComment_text .
+
+
+###  http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#created_at
+:created_at rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf :is_Unique ;
+            rdfs:domain :IdeaComment ;
+            rdfs:range :ideaComment_timestamp .
+
+
+###  http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#created_on
+:created_on rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf :has_id ;
+            rdfs:domain :Idea ;
+            rdfs:range :idea_date_created .
+
+
+###  http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#equivalence
+:equivalence rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf :has_tags ;
+             rdfs:domain :Canvas_tags ;
+             rdfs:range :tag_id .
+
+
+###  http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#equivalent
+:equivalent rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf :has_unique ;
+            rdfs:domain :Canvas_project ;
+            rdfs:range :Project_id .
+
+
+###  http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_CType
+:has_CType rdf:type owl:ObjectProperty ;
+           rdfs:subPropertyOf :has_unique ;
+           rdfs:domain :Canvas ;
+           rdfs:range :Canvas_type .
+
+
+###  http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_Id
+:has_Id rdf:type owl:ObjectProperty ;
+        rdfs:subPropertyOf :has_tags ;
+        rdfs:domain :CanvasTag ;
+        rdfs:range :tag_id .
+
+
+###  http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_Tags
+:has_Tags rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf :has_id ;
+          rdfs:domain :Idea ;
+          rdfs:range :idea_tags .
+
+
+###  http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_UniqueId
+:has_UniqueId rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf :is_Unique ;
+              rdfs:domain :IdeaComment ;
+              rdfs:range :ideaComment_id .
+
+
+###  http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_been_created
+:has_been_created rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf :has_tags ;
+                  rdfs:domain :CanvasTag ;
+                  rdfs:range :tag_date_created .
+
+
+###  http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_been_modified
+:has_been_modified rdf:type owl:ObjectProperty ;
+                   rdfs:subPropertyOf :has_tags ;
+                   rdfs:domain :CanvasTag ;
+                   rdfs:range :tag_date_modified .
+
+
+###  http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_category
+:has_category rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf :has_id ;
+              rdfs:domain :Idea ;
+              rdfs:range :idea_category .
+
+
+###  http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_id
+:has_id rdf:type owl:ObjectProperty ;
+        rdfs:subPropertyOf :has_unique ;
+        rdfs:domain :Canvas ;
+        rdfs:range :Canvas_id .
+
+
+###  http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_label
+:has_label rdf:type owl:ObjectProperty ;
+           rdfs:subPropertyOf :has_tags ;
+           rdfs:domain :CanvasTag ;
+           rdfs:range :tag_label .
+
+
+###  http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_project
+:has_project rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf :has_unique ;
+             rdfs:domain :Canvas ;
+             rdfs:range :Canvas_project .
+
+
+###  http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_tags
+:has_tags rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf :has_unique ;
+          rdfs:domain :Canvas ;
+          rdfs:range :Canvas_tags .
+
+
+###  http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_text
+:has_text rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf :has_id ;
+          rdfs:domain :Idea ;
+          rdfs:range :idea_text .
+
+
+###  http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_title
+:has_title rdf:type owl:ObjectProperty ;
+           rdfs:subPropertyOf :has_unique ;
+           rdfs:domain :Canvas ;
+           rdfs:range :Canvas_title .
+
+
+###  http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_unique
+:has_unique rdf:type owl:ObjectProperty ;
+            rdfs:domain :Project ;
+            rdfs:range :Project_id .
+
+
+###  http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_Titled
+:is_Titled rdf:type owl:ObjectProperty ;
+           rdfs:subPropertyOf :has_id ;
+           rdfs:domain :Idea ;
+           rdfs:range :idea_title .
+
+
+###  http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_Unique
+:is_Unique rdf:type owl:ObjectProperty ;
+           rdfs:subPropertyOf :has_id ;
+           rdfs:domain :Idea ;
+           rdfs:range :idea_id .
+
+
+###  http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_administrated_by
+:is_administrated_by rdf:type owl:ObjectProperty ;
+                     rdfs:domain :Project ;
+                     rdfs:range :Project_admins .
+
+
+###  http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_create
+:is_create rdf:type owl:ObjectProperty ;
+           rdfs:subPropertyOf :has_unique ;
+           rdfs:domain :Canvas ;
+           rdfs:range :Canvas_date_created .
+
+
+###  http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_created
+:is_created rdf:type owl:ObjectProperty ;
+            rdfs:domain :Project ;
+            rdfs:range :Project_date_created .
+
+
+###  http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_equivalence
+:is_equivalence rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf :is_Unique ;
+                rdfs:domain :idea_id ;
+                rdfs:range :ideaComment_idea .
+
+
+###  http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_equivalent
+:is_equivalent rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf :has_unique ;
+               rdfs:domain :Canvas_id ;
+               rdfs:range :idea_canvas .
+
+
+###  http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_modified
+:is_modified rdf:type owl:ObjectProperty ;
+             rdfs:domain :Project ;
+             rdfs:range :Project_date_modified .
+
+
+###  http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_modify
+:is_modify rdf:type owl:ObjectProperty ;
+           rdfs:subPropertyOf :has_unique ;
+           rdfs:domain :Canvas ;
+           rdfs:range :Canvas_date_modified .
+
+
+###  http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_owned
+:is_owned rdf:type owl:ObjectProperty ;
+          rdfs:domain :Project ;
+          rdfs:range :Project_owner .
+
+
+###  http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_resolvable
+:is_resolvable rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf :is_Unique ;
+               rdfs:domain :IdeaComment ;
+               rdfs:range :ideaComment_resolved .
+
+
+###  http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_titled
+:is_titled rdf:type owl:ObjectProperty ;
+           rdfs:domain :Project ;
+           rdfs:range :Project_title .
+
+
+###  http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_used
+:is_used rdf:type owl:ObjectProperty ;
+         rdfs:domain :Project ;
+         rdfs:range :Project_users .
+
+
+###  http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_used_by
+:is_used_by rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf :is_Unique ;
+            rdfs:domain :IdeaComment ;
+            rdfs:range :ideaComment_user .
+
+
+###  http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_visible
+:is_visible rdf:type owl:ObjectProperty ;
+            rdfs:domain :Project ;
+            rdfs:range :Project_is_public .
+
+
+###  http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#modified_on
+:modified_on rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf :has_id ;
+             rdfs:domain :Idea ;
+             rdfs:range :idea_date_modified .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Canvas
+:Canvas rdf:type owl:Class ;
+        rdfs:subClassOf :Project .
+
+
+###  http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#CanvasTag
+:CanvasTag rdf:type owl:Class ;
+           rdfs:subClassOf :Canvas .
+
+
+###  http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Canvas_date_created
+:Canvas_date_created rdf:type owl:Class ;
+                     rdfs:subClassOf :Canvas .
+
+
+###  http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Canvas_date_modified
+:Canvas_date_modified rdf:type owl:Class ;
+                      rdfs:subClassOf :Canvas .
+
+
+###  http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Canvas_id
+:Canvas_id rdf:type owl:Class ;
+           rdfs:subClassOf :Canvas .
+
+
+###  http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Canvas_project
+:Canvas_project rdf:type owl:Class ;
+                rdfs:subClassOf :Canvas .
+
+
+###  http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Canvas_tags
+:Canvas_tags rdf:type owl:Class ;
+             rdfs:subClassOf :Canvas .
+
+
+###  http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Canvas_title
+:Canvas_title rdf:type owl:Class ;
+              rdfs:subClassOf :Canvas .
+
+
+###  http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Canvas_type
+:Canvas_type rdf:type owl:Class ;
+             rdfs:subClassOf :Canvas .
+
+
+###  http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Idea
+:Idea rdf:type owl:Class ;
+      rdfs:subClassOf :Canvas .
+
+
+###  http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#IdeaComment
+:IdeaComment rdf:type owl:Class ;
+             rdfs:subClassOf :Idea .
+
+
+###  http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Project
+:Project rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Project_admins
+:Project_admins rdf:type owl:Class ;
+                rdfs:subClassOf :Project .
+
+
+###  http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Project_date_created
+:Project_date_created rdf:type owl:Class ;
+                      rdfs:subClassOf :Project .
+
+
+###  http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Project_date_modified
+:Project_date_modified rdf:type owl:Class ;
+                       rdfs:subClassOf :Project .
+
+
+###  http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Project_id
+:Project_id rdf:type owl:Class ;
+            rdfs:subClassOf :Project .
+
+
+###  http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Project_is_public
+:Project_is_public rdf:type owl:Class ;
+                   rdfs:subClassOf :Project .
+
+
+###  http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Project_owner
+:Project_owner rdf:type owl:Class ;
+               rdfs:subClassOf :Project .
+
+
+###  http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Project_title
+:Project_title rdf:type owl:Class ;
+               rdfs:subClassOf :Project .
+
+
+###  http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Project_users
+:Project_users rdf:type owl:Class ;
+               rdfs:subClassOf :Project .
+
+
+###  http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#ideaComment_id
+:ideaComment_id rdf:type owl:Class ;
+                rdfs:subClassOf :IdeaComment .
+
+
+###  http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#ideaComment_idea
+:ideaComment_idea rdf:type owl:Class ;
+                  rdfs:subClassOf :IdeaComment .
+
+
+###  http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#ideaComment_resolved
+:ideaComment_resolved rdf:type owl:Class ;
+                      rdfs:subClassOf :IdeaComment .
+
+
+###  http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#ideaComment_text
+:ideaComment_text rdf:type owl:Class ;
+                  rdfs:subClassOf :IdeaComment .
+
+
+###  http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#ideaComment_timestamp
+:ideaComment_timestamp rdf:type owl:Class ;
+                       rdfs:subClassOf :IdeaComment .
+
+
+###  http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#ideaComment_user
+:ideaComment_user rdf:type owl:Class ;
+                  rdfs:subClassOf :IdeaComment .
+
+
+###  http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#idea_canvas
+:idea_canvas rdf:type owl:Class ;
+             rdfs:subClassOf :Idea .
+
+
+###  http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#idea_category
+:idea_category rdf:type owl:Class ;
+               rdfs:subClassOf :Idea .
+
+
+###  http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#idea_date_created
+:idea_date_created rdf:type owl:Class ;
+                   rdfs:subClassOf :Idea .
+
+
+###  http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#idea_date_modified
+:idea_date_modified rdf:type owl:Class ;
+                    rdfs:subClassOf :Idea .
+
+
+###  http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#idea_id
+:idea_id rdf:type owl:Class ;
+         rdfs:subClassOf :Idea .
+
+
+###  http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#idea_tags
+:idea_tags rdf:type owl:Class ;
+           rdfs:subClassOf :Idea .
+
+
+###  http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#idea_text
+:idea_text rdf:type owl:Class ;
+           rdfs:subClassOf :Idea .
+
+
+###  http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#idea_title
+:idea_title rdf:type owl:Class ;
+            rdfs:subClassOf :Idea .
+
+
+###  http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#tag_date_created
+:tag_date_created rdf:type owl:Class ;
+                  rdfs:subClassOf :CanvasTag .
+
+
+###  http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#tag_date_modified
+:tag_date_modified rdf:type owl:Class ;
+                   rdfs:subClassOf :CanvasTag .
+
+
+###  http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#tag_id
+:tag_id rdf:type owl:Class ;
+        rdfs:subClassOf :CanvasTag .
+
+
+###  http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#tag_label
+:tag_label rdf:type owl:Class ;
+           rdfs:subClassOf :CanvasTag .
+
+
+###  Generated by the OWL API (version 5.1.11) https://github.com/owlcs/owlapi/

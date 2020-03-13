@@ -1,0 +1,385 @@
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#belongs_CType
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#belongs_CType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#belongs_CType> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_id> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#belongs_CType> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Idea> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#belongs_CType> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#idea_canvas> .
+# 
+# http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#belongs_to_idea
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#belongs_to_idea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#belongs_to_idea> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_Unique> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#belongs_to_idea> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#IdeaComment> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#belongs_to_idea> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#ideaComment_idea> .
+# 
+# http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#contains
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#contains> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#contains> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_Unique> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#contains> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#IdeaComment> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#contains> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#ideaComment_text> .
+# 
+# http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#created_at
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#created_at> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#created_at> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_Unique> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#created_at> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#IdeaComment> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#created_at> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#ideaComment_timestamp> .
+# 
+# http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#created_on
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#created_on> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#created_on> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_id> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#created_on> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Idea> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#created_on> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#idea_date_created> .
+# 
+# http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#equivalence
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#equivalence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#equivalence> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_tags> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#equivalence> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Canvas_tags> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#equivalence> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#tag_id> .
+# 
+# http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#equivalent
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#equivalent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#equivalent> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_unique> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#equivalent> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Canvas_project> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#equivalent> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Project_id> .
+# 
+# http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_CType
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_CType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_CType> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_unique> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_CType> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Canvas> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_CType> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Canvas_type> .
+# 
+# http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_Id
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_Id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_Id> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_tags> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_Id> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#CanvasTag> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_Id> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#tag_id> .
+# 
+# http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_Tags
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_Tags> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_Tags> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_id> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_Tags> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Idea> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_Tags> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#idea_tags> .
+# 
+# http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_UniqueId
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_UniqueId> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_UniqueId> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_Unique> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_UniqueId> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#IdeaComment> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_UniqueId> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#ideaComment_id> .
+# 
+# http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_been_created
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_been_created> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_been_created> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_tags> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_been_created> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#CanvasTag> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_been_created> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#tag_date_created> .
+# 
+# http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_been_modified
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_been_modified> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_been_modified> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_tags> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_been_modified> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#CanvasTag> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_been_modified> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#tag_date_modified> .
+# 
+# http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_category
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_category> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_category> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_id> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_category> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Idea> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_category> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#idea_category> .
+# 
+# http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_id
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_id> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_unique> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_id> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Canvas> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_id> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Canvas_id> .
+# 
+# http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_label
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_label> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_label> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_tags> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_label> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#CanvasTag> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_label> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#tag_label> .
+# 
+# http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_project
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_project> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_project> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_unique> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_project> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Canvas> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_project> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Canvas_project> .
+# 
+# http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_tags
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_tags> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_tags> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_unique> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_tags> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Canvas> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_tags> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Canvas_tags> .
+# 
+# http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_text
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_text> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_text> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_id> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_text> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Idea> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_text> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#idea_text> .
+# 
+# http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_title
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_title> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_unique> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_title> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Canvas> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_title> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Canvas_title> .
+# 
+# http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_unique
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_unique> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_unique> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Project> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_unique> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Project_id> .
+# 
+# http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_Titled
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_Titled> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_Titled> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_id> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_Titled> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Idea> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_Titled> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#idea_title> .
+# 
+# http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_Unique
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_Unique> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_Unique> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_id> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_Unique> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Idea> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_Unique> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#idea_id> .
+# 
+# http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_administrated_by
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_administrated_by> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_administrated_by> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Project> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_administrated_by> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Project_admins> .
+# 
+# http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_create
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_create> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_create> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_unique> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_create> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Canvas> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_create> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Canvas_date_created> .
+# 
+# http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_created
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_created> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_created> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Project> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_created> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Project_date_created> .
+# 
+# http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_equivalence
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_equivalence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_equivalence> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_Unique> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_equivalence> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#idea_id> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_equivalence> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#ideaComment_idea> .
+# 
+# http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_equivalent
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_equivalent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_equivalent> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_unique> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_equivalent> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Canvas_id> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_equivalent> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#idea_canvas> .
+# 
+# http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_modified
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_modified> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_modified> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Project> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_modified> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Project_date_modified> .
+# 
+# http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_modify
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_modify> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_modify> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_unique> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_modify> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Canvas> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_modify> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Canvas_date_modified> .
+# 
+# http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_owned
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_owned> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_owned> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Project> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_owned> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Project_owner> .
+# 
+# http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_resolvable
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_resolvable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_resolvable> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_Unique> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_resolvable> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#IdeaComment> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_resolvable> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#ideaComment_resolved> .
+# 
+# http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_titled
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_titled> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_titled> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Project> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_titled> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Project_title> .
+# 
+# http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_used
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_used> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_used> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Project> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_used> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Project_users> .
+# 
+# http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_used_by
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_used_by> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_used_by> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_Unique> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_used_by> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#IdeaComment> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_used_by> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#ideaComment_user> .
+# 
+# http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_visible
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_visible> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_visible> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Project> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#is_visible> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Project_is_public> .
+# 
+# http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#modified_on
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#modified_on> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#modified_on> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#has_id> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#modified_on> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Idea> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#modified_on> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#idea_date_modified> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Canvas
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Canvas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Canvas> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Project> .
+# 
+# http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#CanvasTag
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#CanvasTag> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#CanvasTag> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Canvas> .
+# 
+# http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Canvas_date_created
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Canvas_date_created> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Canvas_date_created> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Canvas> .
+# 
+# http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Canvas_date_modified
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Canvas_date_modified> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Canvas_date_modified> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Canvas> .
+# 
+# http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Canvas_id
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Canvas_id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Canvas_id> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Canvas> .
+# 
+# http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Canvas_project
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Canvas_project> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Canvas_project> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Canvas> .
+# 
+# http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Canvas_tags
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Canvas_tags> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Canvas_tags> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Canvas> .
+# 
+# http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Canvas_title
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Canvas_title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Canvas_title> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Canvas> .
+# 
+# http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Canvas_type
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Canvas_type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Canvas_type> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Canvas> .
+# 
+# http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Idea
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Idea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Idea> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Canvas> .
+# 
+# http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#IdeaComment
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#IdeaComment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#IdeaComment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Idea> .
+# 
+# http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Project
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Project> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Project_admins
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Project_admins> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Project_admins> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Project> .
+# 
+# http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Project_date_created
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Project_date_created> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Project_date_created> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Project> .
+# 
+# http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Project_date_modified
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Project_date_modified> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Project_date_modified> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Project> .
+# 
+# http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Project_id
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Project_id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Project_id> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Project> .
+# 
+# http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Project_is_public
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Project_is_public> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Project_is_public> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Project> .
+# 
+# http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Project_owner
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Project_owner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Project_owner> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Project> .
+# 
+# http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Project_title
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Project_title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Project_title> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Project> .
+# 
+# http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Project_users
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Project_users> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Project_users> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Project> .
+# 
+# http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#ideaComment_id
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#ideaComment_id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#ideaComment_id> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#IdeaComment> .
+# 
+# http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#ideaComment_idea
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#ideaComment_idea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#ideaComment_idea> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#IdeaComment> .
+# 
+# http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#ideaComment_resolved
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#ideaComment_resolved> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#ideaComment_resolved> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#IdeaComment> .
+# 
+# http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#ideaComment_text
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#ideaComment_text> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#ideaComment_text> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#IdeaComment> .
+# 
+# http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#ideaComment_timestamp
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#ideaComment_timestamp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#ideaComment_timestamp> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#IdeaComment> .
+# 
+# http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#ideaComment_user
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#ideaComment_user> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#ideaComment_user> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#IdeaComment> .
+# 
+# http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#idea_canvas
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#idea_canvas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#idea_canvas> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Idea> .
+# 
+# http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#idea_category
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#idea_category> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#idea_category> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Idea> .
+# 
+# http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#idea_date_created
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#idea_date_created> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#idea_date_created> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Idea> .
+# 
+# http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#idea_date_modified
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#idea_date_modified> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#idea_date_modified> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Idea> .
+# 
+# http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#idea_id
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#idea_id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#idea_id> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Idea> .
+# 
+# http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#idea_tags
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#idea_tags> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#idea_tags> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Idea> .
+# 
+# http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#idea_text
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#idea_text> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#idea_text> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Idea> .
+# 
+# http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#idea_title
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#idea_title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#idea_title> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#Idea> .
+# 
+# http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#tag_date_created
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#tag_date_created> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#tag_date_created> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#CanvasTag> .
+# 
+# http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#tag_date_modified
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#tag_date_modified> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#tag_date_modified> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#CanvasTag> .
+# 
+# http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#tag_id
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#tag_id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#tag_id> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#CanvasTag> .
+# 
+# http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#tag_label
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#tag_label> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#tag_label> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/91708/ontologies/2020/2/untitled-ontology-6#CanvasTag> .
+# 
+# Generated by the OWL API (version 5.1.11) https://github.com/owlcs/owlapi/
