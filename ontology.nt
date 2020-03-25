@@ -1,0 +1,233 @@
+<http://www.MyAIEthicsCanvasOntology/MAI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.MyAIEthicsCanvasOntology/MAI#contains
+<http://www.MyAIEthicsCanvasOntology/MAI#contains> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.MyAIEthicsCanvasOntology/MAI#contains> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.MyAIEthicsCanvasOntology/MAI#Canvas> .
+<http://www.MyAIEthicsCanvasOntology/MAI#contains> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.MyAIEthicsCanvasOntology/MAI#Project> .
+# 
+# http://www.MyAIEthicsCanvasOntology/MAI#hasEntry
+<http://www.MyAIEthicsCanvasOntology/MAI#hasEntry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.MyAIEthicsCanvasOntology/MAI#hasEntry> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.MyAIEthicsCanvasOntology/MAI#Canvas> .
+<http://www.MyAIEthicsCanvasOntology/MAI#hasEntry> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.MyAIEthicsCanvasOntology/MAI#BlockEntry> .
+# 
+# http://www.MyAIEthicsCanvasOntology/MAI#hasTotalTaggedWith
+<http://www.MyAIEthicsCanvasOntology/MAI#hasTotalTaggedWith> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.MyAIEthicsCanvasOntology/MAI#hasTotalTaggedWith> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.MyAIEthicsCanvasOntology/MAI#Canvas> .
+<http://www.MyAIEthicsCanvasOntology/MAI#hasTotalTaggedWith> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.MyAIEthicsCanvasOntology/MAI#Tag> .
+# 
+# http://www.MyAIEthicsCanvasOntology/MAI#isCommentForEntry
+<http://www.MyAIEthicsCanvasOntology/MAI#isCommentForEntry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.MyAIEthicsCanvasOntology/MAI#isCommentForEntry> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.MyAIEthicsCanvasOntology/MAI#Comment> .
+<http://www.MyAIEthicsCanvasOntology/MAI#isCommentForEntry> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.MyAIEthicsCanvasOntology/MAI#BlockEntry> .
+# 
+# http://www.MyAIEthicsCanvasOntology/MAI#taggedWith
+<http://www.MyAIEthicsCanvasOntology/MAI#taggedWith> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.MyAIEthicsCanvasOntology/MAI#taggedWith> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.MyAIEthicsCanvasOntology/MAI#BlockEntry> .
+<http://www.MyAIEthicsCanvasOntology/MAI#taggedWith> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.MyAIEthicsCanvasOntology/MAI#Tag> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://www.MyAIEthicsCanvasOntology/MAI#CanvasCreatedAt
+<http://www.MyAIEthicsCanvasOntology/MAI#CanvasCreatedAt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.MyAIEthicsCanvasOntology/MAI#CanvasCreatedAt> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.MyAIEthicsCanvasOntology/MAI#Canvas> .
+<http://www.MyAIEthicsCanvasOntology/MAI#CanvasCreatedAt> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTimeStamp> .
+# 
+# http://www.MyAIEthicsCanvasOntology/MAI#CanvasHasTitle
+<http://www.MyAIEthicsCanvasOntology/MAI#CanvasHasTitle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.MyAIEthicsCanvasOntology/MAI#CanvasHasTitle> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.MyAIEthicsCanvasOntology/MAI#Canvas> .
+<http://www.MyAIEthicsCanvasOntology/MAI#CanvasHasTitle> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.MyAIEthicsCanvasOntology/MAI#CanvasModifiedAt
+<http://www.MyAIEthicsCanvasOntology/MAI#CanvasModifiedAt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.MyAIEthicsCanvasOntology/MAI#CanvasModifiedAt> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.MyAIEthicsCanvasOntology/MAI#Canvas> .
+<http://www.MyAIEthicsCanvasOntology/MAI#CanvasModifiedAt> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTimeStamp> .
+# 
+# http://www.MyAIEthicsCanvasOntology/MAI#CanvasTypeIs
+<http://www.MyAIEthicsCanvasOntology/MAI#CanvasTypeIs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.MyAIEthicsCanvasOntology/MAI#CanvasTypeIs> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.MyAIEthicsCanvasOntology/MAI#Canvas> .
+<http://www.MyAIEthicsCanvasOntology/MAI#CanvasTypeIs> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+# 
+# http://www.MyAIEthicsCanvasOntology/MAI#CanvasUniqueId
+<http://www.MyAIEthicsCanvasOntology/MAI#CanvasUniqueId> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.MyAIEthicsCanvasOntology/MAI#CanvasUniqueId> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.MyAIEthicsCanvasOntology/MAI#Canvas> .
+<http://www.MyAIEthicsCanvasOntology/MAI#CanvasUniqueId> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+# 
+# http://www.MyAIEthicsCanvasOntology/MAI#CommentHasText
+<http://www.MyAIEthicsCanvasOntology/MAI#CommentHasText> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.MyAIEthicsCanvasOntology/MAI#CommentHasText> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.MyAIEthicsCanvasOntology/MAI#Comment> .
+<http://www.MyAIEthicsCanvasOntology/MAI#CommentHasText> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.MyAIEthicsCanvasOntology/MAI#CommentHasUser
+<http://www.MyAIEthicsCanvasOntology/MAI#CommentHasUser> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.MyAIEthicsCanvasOntology/MAI#CommentHasUser> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.MyAIEthicsCanvasOntology/MAI#Comment> .
+<http://www.MyAIEthicsCanvasOntology/MAI#CommentHasUser> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+# 
+# http://www.MyAIEthicsCanvasOntology/MAI#CommentIsResolved
+<http://www.MyAIEthicsCanvasOntology/MAI#CommentIsResolved> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.MyAIEthicsCanvasOntology/MAI#CommentIsResolved> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.MyAIEthicsCanvasOntology/MAI#Comment> .
+<http://www.MyAIEthicsCanvasOntology/MAI#CommentIsResolved> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+# 
+# http://www.MyAIEthicsCanvasOntology/MAI#CommentTimestamp
+<http://www.MyAIEthicsCanvasOntology/MAI#CommentTimestamp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.MyAIEthicsCanvasOntology/MAI#CommentTimestamp> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.MyAIEthicsCanvasOntology/MAI#Comment> .
+<http://www.MyAIEthicsCanvasOntology/MAI#CommentTimestamp> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTimeStamp> .
+# 
+# http://www.MyAIEthicsCanvasOntology/MAI#CommentUniqueId
+<http://www.MyAIEthicsCanvasOntology/MAI#CommentUniqueId> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.MyAIEthicsCanvasOntology/MAI#CommentUniqueId> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.MyAIEthicsCanvasOntology/MAI#Comment> .
+<http://www.MyAIEthicsCanvasOntology/MAI#CommentUniqueId> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+# 
+# http://www.MyAIEthicsCanvasOntology/MAI#EntryCategoryIs
+<http://www.MyAIEthicsCanvasOntology/MAI#EntryCategoryIs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.MyAIEthicsCanvasOntology/MAI#EntryCategoryIs> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.MyAIEthicsCanvasOntology/MAI#BlockEntry> .
+<http://www.MyAIEthicsCanvasOntology/MAI#EntryCategoryIs> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+# 
+# http://www.MyAIEthicsCanvasOntology/MAI#EntryCreatedAt
+<http://www.MyAIEthicsCanvasOntology/MAI#EntryCreatedAt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.MyAIEthicsCanvasOntology/MAI#EntryCreatedAt> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.MyAIEthicsCanvasOntology/MAI#BlockEntry> .
+<http://www.MyAIEthicsCanvasOntology/MAI#EntryCreatedAt> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTimeStamp> .
+# 
+# http://www.MyAIEthicsCanvasOntology/MAI#EntryHasTitle
+<http://www.MyAIEthicsCanvasOntology/MAI#EntryHasTitle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.MyAIEthicsCanvasOntology/MAI#EntryHasTitle> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.MyAIEthicsCanvasOntology/MAI#BlockEntry> .
+<http://www.MyAIEthicsCanvasOntology/MAI#EntryHasTitle> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.MyAIEthicsCanvasOntology/MAI#EntryModifiedAt
+<http://www.MyAIEthicsCanvasOntology/MAI#EntryModifiedAt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.MyAIEthicsCanvasOntology/MAI#EntryModifiedAt> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.MyAIEthicsCanvasOntology/MAI#BlockEntry> .
+<http://www.MyAIEthicsCanvasOntology/MAI#EntryModifiedAt> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTimeStamp> .
+# 
+# http://www.MyAIEthicsCanvasOntology/MAI#EntryTextIs
+<http://www.MyAIEthicsCanvasOntology/MAI#EntryTextIs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.MyAIEthicsCanvasOntology/MAI#EntryTextIs> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.MyAIEthicsCanvasOntology/MAI#BlockEntry> .
+<http://www.MyAIEthicsCanvasOntology/MAI#EntryTextIs> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.MyAIEthicsCanvasOntology/MAI#EntryUniqueId
+<http://www.MyAIEthicsCanvasOntology/MAI#EntryUniqueId> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.MyAIEthicsCanvasOntology/MAI#EntryUniqueId> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.MyAIEthicsCanvasOntology/MAI#BlockEntry> .
+<http://www.MyAIEthicsCanvasOntology/MAI#EntryUniqueId> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+# 
+# http://www.MyAIEthicsCanvasOntology/MAI#ProjectCreatedAt
+<http://www.MyAIEthicsCanvasOntology/MAI#ProjectCreatedAt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.MyAIEthicsCanvasOntology/MAI#ProjectCreatedAt> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.MyAIEthicsCanvasOntology/MAI#Project> .
+<http://www.MyAIEthicsCanvasOntology/MAI#ProjectCreatedAt> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTimeStamp> .
+# 
+# http://www.MyAIEthicsCanvasOntology/MAI#ProjectHasAdmins
+<http://www.MyAIEthicsCanvasOntology/MAI#ProjectHasAdmins> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.MyAIEthicsCanvasOntology/MAI#ProjectHasAdmins> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.MyAIEthicsCanvasOntology/MAI#Project> .
+<http://www.MyAIEthicsCanvasOntology/MAI#ProjectHasAdmins> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+# 
+# http://www.MyAIEthicsCanvasOntology/MAI#ProjectHasOwner
+<http://www.MyAIEthicsCanvasOntology/MAI#ProjectHasOwner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.MyAIEthicsCanvasOntology/MAI#ProjectHasOwner> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.MyAIEthicsCanvasOntology/MAI#Project> .
+<http://www.MyAIEthicsCanvasOntology/MAI#ProjectHasOwner> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+# 
+# http://www.MyAIEthicsCanvasOntology/MAI#ProjectHasTitle
+<http://www.MyAIEthicsCanvasOntology/MAI#ProjectHasTitle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.MyAIEthicsCanvasOntology/MAI#ProjectHasTitle> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.MyAIEthicsCanvasOntology/MAI#Project> .
+<http://www.MyAIEthicsCanvasOntology/MAI#ProjectHasTitle> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.MyAIEthicsCanvasOntology/MAI#ProjectHasUsers
+<http://www.MyAIEthicsCanvasOntology/MAI#ProjectHasUsers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.MyAIEthicsCanvasOntology/MAI#ProjectHasUsers> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.MyAIEthicsCanvasOntology/MAI#Project> .
+<http://www.MyAIEthicsCanvasOntology/MAI#ProjectHasUsers> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+# 
+# http://www.MyAIEthicsCanvasOntology/MAI#ProjectModifiedAt
+<http://www.MyAIEthicsCanvasOntology/MAI#ProjectModifiedAt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.MyAIEthicsCanvasOntology/MAI#ProjectModifiedAt> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.MyAIEthicsCanvasOntology/MAI#Project> .
+<http://www.MyAIEthicsCanvasOntology/MAI#ProjectModifiedAt> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTimeStamp> .
+# 
+# http://www.MyAIEthicsCanvasOntology/MAI#ProjectPublicOrNot
+<http://www.MyAIEthicsCanvasOntology/MAI#ProjectPublicOrNot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.MyAIEthicsCanvasOntology/MAI#ProjectPublicOrNot> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.MyAIEthicsCanvasOntology/MAI#Project> .
+<http://www.MyAIEthicsCanvasOntology/MAI#ProjectPublicOrNot> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+# 
+# http://www.MyAIEthicsCanvasOntology/MAI#ProjectUniqueId
+<http://www.MyAIEthicsCanvasOntology/MAI#ProjectUniqueId> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.MyAIEthicsCanvasOntology/MAI#ProjectUniqueId> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.MyAIEthicsCanvasOntology/MAI#Project> .
+<http://www.MyAIEthicsCanvasOntology/MAI#ProjectUniqueId> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+# 
+# http://www.MyAIEthicsCanvasOntology/MAI#TagCreatedAt
+<http://www.MyAIEthicsCanvasOntology/MAI#TagCreatedAt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.MyAIEthicsCanvasOntology/MAI#TagCreatedAt> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.MyAIEthicsCanvasOntology/MAI#Tag> .
+<http://www.MyAIEthicsCanvasOntology/MAI#TagCreatedAt> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTimeStamp> .
+# 
+# http://www.MyAIEthicsCanvasOntology/MAI#TagLabelIs
+<http://www.MyAIEthicsCanvasOntology/MAI#TagLabelIs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.MyAIEthicsCanvasOntology/MAI#TagLabelIs> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.MyAIEthicsCanvasOntology/MAI#Tag> .
+<http://www.MyAIEthicsCanvasOntology/MAI#TagLabelIs> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.MyAIEthicsCanvasOntology/MAI#TagModifiedAt
+<http://www.MyAIEthicsCanvasOntology/MAI#TagModifiedAt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.MyAIEthicsCanvasOntology/MAI#TagModifiedAt> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.MyAIEthicsCanvasOntology/MAI#Tag> .
+<http://www.MyAIEthicsCanvasOntology/MAI#TagModifiedAt> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTimeStamp> .
+# 
+# http://www.MyAIEthicsCanvasOntology/MAI#TagUniqueId
+<http://www.MyAIEthicsCanvasOntology/MAI#TagUniqueId> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.MyAIEthicsCanvasOntology/MAI#TagUniqueId> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.MyAIEthicsCanvasOntology/MAI#Tag> .
+<http://www.MyAIEthicsCanvasOntology/MAI#TagUniqueId> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.MyAIEthicsCanvasOntology/MAI#AIEthicsBlockEntry
+<http://www.MyAIEthicsCanvasOntology/MAI#AIEthicsBlockEntry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.MyAIEthicsCanvasOntology/MAI#AIEthicsBlockEntry> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.MyAIEthicsCanvasOntology/MAI#BlockEntry> .
+# 
+# http://www.MyAIEthicsCanvasOntology/MAI#AIEthicsCanvas
+<http://www.MyAIEthicsCanvasOntology/MAI#AIEthicsCanvas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.MyAIEthicsCanvasOntology/MAI#AIEthicsCanvas> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.MyAIEthicsCanvasOntology/MAI#Canvas> .
+# 
+# http://www.MyAIEthicsCanvasOntology/MAI#BlockEntry
+<http://www.MyAIEthicsCanvasOntology/MAI#BlockEntry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.MyAIEthicsCanvasOntology/MAI#BusinessModelBlockEntry
+<http://www.MyAIEthicsCanvasOntology/MAI#BusinessModelBlockEntry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.MyAIEthicsCanvasOntology/MAI#BusinessModelBlockEntry> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.MyAIEthicsCanvasOntology/MAI#BlockEntry> .
+# 
+# http://www.MyAIEthicsCanvasOntology/MAI#BusinessModelCanvas
+<http://www.MyAIEthicsCanvasOntology/MAI#BusinessModelCanvas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.MyAIEthicsCanvasOntology/MAI#BusinessModelCanvas> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.MyAIEthicsCanvasOntology/MAI#Canvas> .
+# 
+# http://www.MyAIEthicsCanvasOntology/MAI#Canvas
+<http://www.MyAIEthicsCanvasOntology/MAI#Canvas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.MyAIEthicsCanvasOntology/MAI#Comment
+<http://www.MyAIEthicsCanvasOntology/MAI#Comment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.MyAIEthicsCanvasOntology/MAI#EthicsBlockEntry
+<http://www.MyAIEthicsCanvasOntology/MAI#EthicsBlockEntry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.MyAIEthicsCanvasOntology/MAI#EthicsBlockEntry> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.MyAIEthicsCanvasOntology/MAI#BlockEntry> .
+# 
+# http://www.MyAIEthicsCanvasOntology/MAI#EthicsCanvas
+<http://www.MyAIEthicsCanvasOntology/MAI#EthicsCanvas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.MyAIEthicsCanvasOntology/MAI#EthicsCanvas> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.MyAIEthicsCanvasOntology/MAI#Canvas> .
+# 
+# http://www.MyAIEthicsCanvasOntology/MAI#Project
+<http://www.MyAIEthicsCanvasOntology/MAI#Project> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.MyAIEthicsCanvasOntology/MAI#Tag
+<http://www.MyAIEthicsCanvasOntology/MAI#Tag> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# Generated by the OWL API (version 5.1.11) https://github.com/owlcs/owlapi/

@@ -1,0 +1,271 @@
+@prefix : <http://www.MyAIEthicsCanvasOntology/MAI#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.MyAIEthicsCanvasOntology/MAI> .
+
+<http://www.MyAIEthicsCanvasOntology/MAI> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.MyAIEthicsCanvasOntology/MAI#contains
+:contains rdf:type owl:ObjectProperty ;
+          rdfs:domain :Canvas ;
+          rdfs:range :Project .
+
+
+###  http://www.MyAIEthicsCanvasOntology/MAI#hasEntry
+:hasEntry rdf:type owl:ObjectProperty ;
+          rdfs:domain :Canvas ;
+          rdfs:range :BlockEntry .
+
+
+###  http://www.MyAIEthicsCanvasOntology/MAI#hasTotalTaggedWith
+:hasTotalTaggedWith rdf:type owl:ObjectProperty ;
+                    rdfs:domain :Canvas ;
+                    rdfs:range :Tag .
+
+
+###  http://www.MyAIEthicsCanvasOntology/MAI#isCommentForEntry
+:isCommentForEntry rdf:type owl:ObjectProperty ;
+                   rdfs:domain :Comment ;
+                   rdfs:range :BlockEntry .
+
+
+###  http://www.MyAIEthicsCanvasOntology/MAI#taggedWith
+:taggedWith rdf:type owl:ObjectProperty ;
+            rdfs:domain :BlockEntry ;
+            rdfs:range :Tag .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.MyAIEthicsCanvasOntology/MAI#CanvasCreatedAt
+:CanvasCreatedAt rdf:type owl:DatatypeProperty ;
+                 rdfs:domain :Canvas ;
+                 rdfs:range xsd:dateTimeStamp .
+
+
+###  http://www.MyAIEthicsCanvasOntology/MAI#CanvasHasTitle
+:CanvasHasTitle rdf:type owl:DatatypeProperty ;
+                rdfs:domain :Canvas ;
+                rdfs:range xsd:string .
+
+
+###  http://www.MyAIEthicsCanvasOntology/MAI#CanvasModifiedAt
+:CanvasModifiedAt rdf:type owl:DatatypeProperty ;
+                  rdfs:domain :Canvas ;
+                  rdfs:range xsd:dateTimeStamp .
+
+
+###  http://www.MyAIEthicsCanvasOntology/MAI#CanvasTypeIs
+:CanvasTypeIs rdf:type owl:DatatypeProperty ;
+              rdfs:domain :Canvas ;
+              rdfs:range xsd:int .
+
+
+###  http://www.MyAIEthicsCanvasOntology/MAI#CanvasUniqueId
+:CanvasUniqueId rdf:type owl:DatatypeProperty ;
+                rdfs:domain :Canvas ;
+                rdfs:range xsd:int .
+
+
+###  http://www.MyAIEthicsCanvasOntology/MAI#CommentHasText
+:CommentHasText rdf:type owl:DatatypeProperty ;
+                rdfs:domain :Comment ;
+                rdfs:range xsd:string .
+
+
+###  http://www.MyAIEthicsCanvasOntology/MAI#CommentHasUser
+:CommentHasUser rdf:type owl:DatatypeProperty ;
+                rdfs:domain :Comment ;
+                rdfs:range xsd:int .
+
+
+###  http://www.MyAIEthicsCanvasOntology/MAI#CommentIsResolved
+:CommentIsResolved rdf:type owl:DatatypeProperty ;
+                   rdfs:domain :Comment ;
+                   rdfs:range xsd:boolean .
+
+
+###  http://www.MyAIEthicsCanvasOntology/MAI#CommentTimestamp
+:CommentTimestamp rdf:type owl:DatatypeProperty ;
+                  rdfs:domain :Comment ;
+                  rdfs:range xsd:dateTimeStamp .
+
+
+###  http://www.MyAIEthicsCanvasOntology/MAI#CommentUniqueId
+:CommentUniqueId rdf:type owl:DatatypeProperty ;
+                 rdfs:domain :Comment ;
+                 rdfs:range xsd:int .
+
+
+###  http://www.MyAIEthicsCanvasOntology/MAI#EntryCategoryIs
+:EntryCategoryIs rdf:type owl:DatatypeProperty ;
+                 rdfs:domain :BlockEntry ;
+                 rdfs:range xsd:int .
+
+
+###  http://www.MyAIEthicsCanvasOntology/MAI#EntryCreatedAt
+:EntryCreatedAt rdf:type owl:DatatypeProperty ;
+                rdfs:domain :BlockEntry ;
+                rdfs:range xsd:dateTimeStamp .
+
+
+###  http://www.MyAIEthicsCanvasOntology/MAI#EntryHasTitle
+:EntryHasTitle rdf:type owl:DatatypeProperty ;
+               rdfs:domain :BlockEntry ;
+               rdfs:range xsd:string .
+
+
+###  http://www.MyAIEthicsCanvasOntology/MAI#EntryModifiedAt
+:EntryModifiedAt rdf:type owl:DatatypeProperty ;
+                 rdfs:domain :BlockEntry ;
+                 rdfs:range xsd:dateTimeStamp .
+
+
+###  http://www.MyAIEthicsCanvasOntology/MAI#EntryTextIs
+:EntryTextIs rdf:type owl:DatatypeProperty ;
+             rdfs:domain :BlockEntry ;
+             rdfs:range xsd:string .
+
+
+###  http://www.MyAIEthicsCanvasOntology/MAI#EntryUniqueId
+:EntryUniqueId rdf:type owl:DatatypeProperty ;
+               rdfs:domain :BlockEntry ;
+               rdfs:range xsd:int .
+
+
+###  http://www.MyAIEthicsCanvasOntology/MAI#ProjectCreatedAt
+:ProjectCreatedAt rdf:type owl:DatatypeProperty ;
+                  rdfs:domain :Project ;
+                  rdfs:range xsd:dateTimeStamp .
+
+
+###  http://www.MyAIEthicsCanvasOntology/MAI#ProjectHasAdmins
+:ProjectHasAdmins rdf:type owl:DatatypeProperty ;
+                  rdfs:domain :Project ;
+                  rdfs:range xsd:int .
+
+
+###  http://www.MyAIEthicsCanvasOntology/MAI#ProjectHasOwner
+:ProjectHasOwner rdf:type owl:DatatypeProperty ;
+                 rdfs:domain :Project ;
+                 rdfs:range xsd:int .
+
+
+###  http://www.MyAIEthicsCanvasOntology/MAI#ProjectHasTitle
+:ProjectHasTitle rdf:type owl:DatatypeProperty ;
+                 rdfs:domain :Project ;
+                 rdfs:range xsd:string .
+
+
+###  http://www.MyAIEthicsCanvasOntology/MAI#ProjectHasUsers
+:ProjectHasUsers rdf:type owl:DatatypeProperty ;
+                 rdfs:domain :Project ;
+                 rdfs:range xsd:int .
+
+
+###  http://www.MyAIEthicsCanvasOntology/MAI#ProjectModifiedAt
+:ProjectModifiedAt rdf:type owl:DatatypeProperty ;
+                   rdfs:domain :Project ;
+                   rdfs:range xsd:dateTimeStamp .
+
+
+###  http://www.MyAIEthicsCanvasOntology/MAI#ProjectPublicOrNot
+:ProjectPublicOrNot rdf:type owl:DatatypeProperty ;
+                    rdfs:domain :Project ;
+                    rdfs:range xsd:boolean .
+
+
+###  http://www.MyAIEthicsCanvasOntology/MAI#ProjectUniqueId
+:ProjectUniqueId rdf:type owl:DatatypeProperty ;
+                 rdfs:domain :Project ;
+                 rdfs:range xsd:int .
+
+
+###  http://www.MyAIEthicsCanvasOntology/MAI#TagCreatedAt
+:TagCreatedAt rdf:type owl:DatatypeProperty ;
+              rdfs:domain :Tag ;
+              rdfs:range xsd:dateTimeStamp .
+
+
+###  http://www.MyAIEthicsCanvasOntology/MAI#TagLabelIs
+:TagLabelIs rdf:type owl:DatatypeProperty ;
+            rdfs:domain :Tag ;
+            rdfs:range xsd:string .
+
+
+###  http://www.MyAIEthicsCanvasOntology/MAI#TagModifiedAt
+:TagModifiedAt rdf:type owl:DatatypeProperty ;
+               rdfs:domain :Tag ;
+               rdfs:range xsd:dateTimeStamp .
+
+
+###  http://www.MyAIEthicsCanvasOntology/MAI#TagUniqueId
+:TagUniqueId rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Tag ;
+             rdfs:range xsd:int .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.MyAIEthicsCanvasOntology/MAI#AIEthicsBlockEntry
+:AIEthicsBlockEntry rdf:type owl:Class ;
+                    rdfs:subClassOf :BlockEntry .
+
+
+###  http://www.MyAIEthicsCanvasOntology/MAI#AIEthicsCanvas
+:AIEthicsCanvas rdf:type owl:Class ;
+                rdfs:subClassOf :Canvas .
+
+
+###  http://www.MyAIEthicsCanvasOntology/MAI#BlockEntry
+:BlockEntry rdf:type owl:Class .
+
+
+###  http://www.MyAIEthicsCanvasOntology/MAI#BusinessModelBlockEntry
+:BusinessModelBlockEntry rdf:type owl:Class ;
+                         rdfs:subClassOf :BlockEntry .
+
+
+###  http://www.MyAIEthicsCanvasOntology/MAI#BusinessModelCanvas
+:BusinessModelCanvas rdf:type owl:Class ;
+                     rdfs:subClassOf :Canvas .
+
+
+###  http://www.MyAIEthicsCanvasOntology/MAI#Canvas
+:Canvas rdf:type owl:Class .
+
+
+###  http://www.MyAIEthicsCanvasOntology/MAI#Comment
+:Comment rdf:type owl:Class .
+
+
+###  http://www.MyAIEthicsCanvasOntology/MAI#EthicsBlockEntry
+:EthicsBlockEntry rdf:type owl:Class ;
+                  rdfs:subClassOf :BlockEntry .
+
+
+###  http://www.MyAIEthicsCanvasOntology/MAI#EthicsCanvas
+:EthicsCanvas rdf:type owl:Class ;
+              rdfs:subClassOf :Canvas .
+
+
+###  http://www.MyAIEthicsCanvasOntology/MAI#Project
+:Project rdf:type owl:Class .
+
+
+###  http://www.MyAIEthicsCanvasOntology/MAI#Tag
+:Tag rdf:type owl:Class .
+
+
+###  Generated by the OWL API (version 5.1.11) https://github.com/owlcs/owlapi/
